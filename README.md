@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is the Next.js Template v1.0 created by [nijeDakic](https://github.com/nijeDakic). It probably needs some more work but right now it is usable
 
-## Getting Started
+## Install Template
 
-First, run the development server:
+Create project by running commands below:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# ./ current folder
+npx create-next-app ./ -e nijedakic/nextjs-template#main
+# new folder
+npx create-next-app <project-name> -e nijedakic/nextjs-template#main
+```
+
+## How to Run
+
+To run the project, execute the following line of code:
+
+```bash
+#on first run
+$ npm install
+$ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Actions Folder
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Server actions are the experimental feature (hello from future, now it’s stable) that provides a built-in solution for server mutations. You may use server-side form action within this folder. For more information, vist the offical docs!
 
-## Learn More
+## Components Folder
 
-To learn more about Next.js, take a look at the following resources:
+I believe there’s no need for an elaborate description, I suppose xD. The only point I would like to make is that you can include “style” and “test” files within a component folder. In this particular case, I prefer to maintain them in separate folders.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Containers Folder
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Well, I especially want to talk about the ‘containers’ folder. This folder essentially serves as a container for your route sections. For example, in the ‘hero-section’ folder, I have an ‘index.tsx’ file, and this file represents a ‘section’ on my home page. With this way, you may have more control over your page sections.
 
-## Deploy on Vercel
+## Store Folder
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This folder serves as the repository where I store my global states. In this project, I have employed Zustand. You have the option to utilize libraries such as Redux or manage your files within this folder as per your preference.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Types Folder
+
+Indeed, the nomenclature of this folder aligns with its intended purpose. Within, I have housed all the TypeScript types that are employed throughout the project.
+
+## Plans for future
+
+Plans for improvement:
+-Updated globals.css for texts
+-Implemented Database with backend
+-Add ESlint
+-Add UI library
+-Config custom Colors in tailwind
+-Config custom css in tailwind
+-Look for more useful libraries
+-Fix `not-found.ts` so it has some design
+
+[SOURCE](https://medium.com/@mertenercan/nextjs-13-folder-structure-c3453d780366)
