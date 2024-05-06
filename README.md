@@ -46,13 +46,14 @@ Indeed, the nomenclature of this folder aligns with its intended purpose. Within
 ## Plans for future
 
 Plans for improvement:
--Updated globals.css for texts
--Implemented Database with backend
--Add ESlint
--Add UI library
--Config custom Colors in tailwind
--Config custom css in tailwind
--Look for more useful libraries
--Fix `not-found.ts` so it has some design
+
+- Updated globals.css for texts
+- Implemented Database with backend
+- Add ESlint
+- Add UI library
+- Config custom Colors in tailwind
+- Config custom css in tailwind
+- Look for more useful libraries
+- Fix `not-found.ts` so it has some design
 
 [SOURCE](https://medium.com/@mertenercan/nextjs-13-folder-structure-c3453d780366)
