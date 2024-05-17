@@ -6,9 +6,9 @@ Create project by running commands below:
 
 ```bash
 # ./ current folder
-npx create-next-app ./ -e nijedakic/nextjs-template#main
+npx create-next-app ./ -e github.com/nijedakic/nextjs-template#main
 # new folder
-npx create-next-app <project-name> -e nijedakic/nextjs-template#main
+npx create-next-app <project-name> -e github.com/nijedakic/nextjs-template#main
 ```
 
 ## How to Run
